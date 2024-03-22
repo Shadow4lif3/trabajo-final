@@ -80,7 +80,7 @@ footer {
 }
 
 .modal {
-    display: none; /* Inicialmente oculto */
+    display: none; 
     position: fixed;
     z-index: 1;
     left: 0;
@@ -120,7 +120,7 @@ footer {
 }
 
 .moda2 {
-    display: none; /* Inicialmente oculto */
+    display: none; 
     position: fixed;
     z-index: 1;
     left: 0;
@@ -203,7 +203,7 @@ footer {
     color: #fff;
 }
 
-/* Estilos para la sección de la imagen */
+
 .imagen {
     text-align: center;
     padding: 50px 0;
@@ -214,4 +214,18 @@ footer {
 
 .imagen img {
     max-width: 100%;
+}
+
+#registerButton{
+    height: 50px;
+   background-color: #333;
+    border-radius: 15px;
+    margin-top: 5px;
+    color: #fff;
+}
+#loginButton{
+    height: 50px;
+    border-radius: 15px;
+    background-color: #333;
+    color: #fff;
 }

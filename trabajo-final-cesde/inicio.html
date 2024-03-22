@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mi Página Web</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Jimbo's Guns</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Acerca de</a></li>
+                    <li><a href="#">Catalogo</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <button id="loginButton">Iniciar Sesión</button>
+
+            <div id="loginModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>Inicio de Sesión</h2>
+                  
+                    <form>
+                        <label for="username">Usuario:</label><br><br>
+                        <input type="text" id="username" name="username"></br></br>
+                        <label for="password">Contraseña:</label><br><br>
+                        <input type="password" id="password" name="password"></br></br>
+                        <button type="submit">Iniciar Sesión</button>
+                    </form>
+                </div>
+            </div>
+
+            <button id="registerButton">Registrarse</button>
+
+            <div id="registerModal" class="moda2">
+                <div class="modal-content2">
+                    <span class="close2">&times;</span>
+                    
+                    <h2>ingrese los datos para registrar su nueva cuenta</h2>
+                     
+                        <label for="username">Usuario:</label><br><br>
+                        <input type="text" id="username2" name="username"></br></br>
+                        <label for="email">Correo Electrónico:</label><br><br> 
+                        <input type="email" id="email" name="email"></br></br>
+                        <label for="password">Contraseña:</label><br><br>
+                        <input type="password" id="password2" name="password"></br></br>
+                        <button type="submit">Registrarse</button>
+                    
+                    </form>
+                </div>
+            </div>
+        </header>
+        
+        <main>
+            <div class="slider-container">
+                <div class="slide">
+                    <img src="img/ak47.jpg" alt="Imagen 1">
+                </div>
+                <div class="slide">
+                    <img src="img/mg42.jpg" alt="Imagen 2">
+                </div>
+                <div class="slide">
+                    <img src="img/m16.jpg" alt="Imagen 3">
+                </div>
+            </div>
+
+            <section class="informacion">
+                <div class="contenedor">
+                    <h2>Nuestra Empresa</h2>
+                    <p>Somos una tienda dedicada a la venta de armas LEGALES autorizada por las fuerzas militares y el estado.</p>
+                    <p>Ofrecemos una amplia gama de armas de fuego desde rifles hasta ametralladoras ligeras de calibre militar .</p>
+                    <p>Nuestra misión es brindar armas a cuidadanos AUTORIZADOS para garantizar tanto la seguridad del hogar asi como la de la familia y todo aquella que deba ser protegido por un arma de fuego.</p>
+                </div>
+            </section>
+
+            <section class="enlaces">
+                <div class="contenedor">
+                    <h2>Es recomendable que veas esto</h2>
+                    <ul>
+                        <li><a href="https://www.usa.gov/state-local-governments" target="_blank"> pagina oficial de los EE.UU</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=C8-Yslv4PME&pp=ygULdXNhIGFybXkgYWQ%3D" target="_blank">video de las fuerzas armadas estadoUnidenses</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D" target="_blank">Como sacar la licencia de armas</a></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <section class="imagen">
+                <div class="contenedor">
+                    <h2>UNETE AHORA!</h2>
+                    <img src="img/USA.png" alt="Imagen Destacada">
+                </div>
+            </section>
+
+          
+    
+            
+        </main>
+    
+        <footer>
+            <p>&copy; 2024 Jimbo's Guns. Todos los derechos reservados.</br>
+                NOTA:Para poder adquirir un arma debe tener una licencia de porte de armas
+            </p>
+        </footer>
+        <script src="usos.js"></script>
+    </body>
+    </html>
